@@ -1,0 +1,9 @@
+.fixed-header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 999;
+}
+
+.fixed-header .navbar-collapse {
+  justify-content: flex-end;
+}

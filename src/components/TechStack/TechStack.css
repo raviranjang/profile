@@ -1,0 +1,28 @@
+.tech-stack  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-box {
+    width: 100%;
+    
+}
+
+.right {
+    padding-right: 15px;
+}
+
+.left {
+    padding-left: 15px;
+}
+
+.skill-box img {
+    height: 40px;
+    width: 40px;
+}
+
+.skill-parent-section {
+    display: flex;
+    margin-bottom: 10px;
+}

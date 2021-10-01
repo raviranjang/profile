@@ -1,0 +1,25 @@
+.contact-card .get-in-touch {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.contact-card .contact-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-card .contact-block {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contact-card .contact-src {
+    margin: auto 10px;
+    max-width: 60%;
+}
+
+.contact-card .icon {
+    background: #d3cccc;
+    padding: 15px;
+}

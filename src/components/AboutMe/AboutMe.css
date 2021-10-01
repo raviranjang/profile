@@ -1,0 +1,71 @@
+.about-me-card {
+    margin: 10px 0 0 15px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.about-me-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.profile-pic-parent {
+    padding-right: 0 !important;
+    margin-top: 5%;
+}
+
+.profile-pic {
+    width: 100%;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.salutation {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(40px, 10vw, 130px);
+}
+
+.stop-by {
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(10px, 2vw, 12px);
+    margin-left: 1.5%;
+    font-weight: 600;
+    margin-top: -3%;
+}
+
+.introduction {
+    margin-top: 25px;
+}
+
+.experience {
+    margin-top: 15px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contacts {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    display: flex;
+    width: 60%;
+}
+
+.contacts >.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts>.icon>svg {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.contacts>.icon>svg:hover {
+    color: rgb(52, 96, 219);
+}
+

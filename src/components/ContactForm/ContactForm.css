@@ -1,0 +1,33 @@
+input:focus {
+    outline: none !important;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none !important;
+}
+
+*:focus {
+    outline: none !important;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-radius: 0 !important;
+}
+
+.form-control:hover {
+    outline: none !important;
+}
+
+.contact-form .mb-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .6875em;
+    letter-spacing: 2px;
+    line-height: 16.5px;
+    font-weight: 600;
+}
