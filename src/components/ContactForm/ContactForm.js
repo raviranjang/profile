@@ -55,16 +55,16 @@ const ContactForm = () => {
         <>
             <Form className="contact-form" onSubmit={onSubmit}>
                 <FloatingLabel controlId="formBasicName" label="Name *" className="mb-3">
-                    <Form.Control type="text" name="name" value={toSend.name} onChange={handleChange} placeholder="Name" />
+                    <Form.Control required={true} type="text" name="name" value={toSend.name} onChange={handleChange} placeholder="Name" />
                 </FloatingLabel>
                 {/* <FloatingLabel controlId="formBasicSubject" label="Subject" className="mb-3 subject">
                     <Form.Control type="text" name="subject" value={toSend.subject} onChange={handleChange} placeholder="Subject" />
                 </FloatingLabel> */}
                 <FloatingLabel controlId="formBasicEmail" label="Email *" className="mb-3">
-                    <Form.Control type="email" name="from_email" value={toSend.from_email} onChange={handleChange} placeholder="Email" />
+                    <Form.Control required={true} type="email" name="from_email" value={toSend.from_email} onChange={handleChange} placeholder="Email" />
                 </FloatingLabel>
                 <FloatingLabel controlId="formBasicMessage" label="Message *" className="mb-3">
-                    <Form.Control as="textarea" name="message" style={{height: '100px'}} value={toSend.message} onChange={handleChange} placeholder="Subject" />
+                    <Form.Control required={true} as="textarea" name="message" style={{height: '100px'}} value={toSend.message} onChange={handleChange} placeholder="Subject" />
                 </FloatingLabel>
                 <Button variant="primary" type="submit">
                     Send Message

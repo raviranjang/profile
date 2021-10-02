@@ -17,7 +17,7 @@ const ContactMe = () => {
                         <ContactDetails />
                     </Col>
 
-                    <Col md={6}>
+                    <Col md={6} className="contact-second">
                         <ContactForm />
                     </Col>
                 </Row>

@@ -1,3 +1,46 @@
+.projects-section-parent {
+    background: #f8f9fa;
+    margin: 2vh 0 !important;
+    padding: 1vw;
+}
+
+.projects-section-parent>.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    margin: 1vh 0;
+    padding: 5px;
+}
+
+.projects-section-parent .card {
+    height: 100%;
+}
+
+.projects-section-parent .card .card-body {
+    display: grid;
+}
+
+.repo-stats svg {
+    font-size: 0.75rem;
+}
+
+.repo-stats .count {
+    font-size: 1rem;
+}
+
+.lang-attr .alng-list {
+    font-size: 1rem;
+}
+
+.star-attr {
+    margin-right: 1.25rem;
+}
+
 .lang-attr {
     float: right;
+}
+
+.projects-section-parent .repo-attriutes {
+    display: flex;
+    justify-content: space-between;
 }

@@ -16,22 +16,21 @@ function App() {
 
       <Container>
         <Row>
-
           <Col>
-            <Row>
+            <Row id="home">
               <AboutMe />
             </Row>
-            <Row>
+            <Row id="work-exp">
               <WorkExp />
             </Row>
-            <Row>
+            <Row id="skills">
               <TechStack />
             </Row>
-            <Row>
+            <Row id="projects">
               <SideProject />
             </Row>
 
-            <Row>
+            <Row id="contacts">
               <ContactMe />
             </Row>
           </Col>

@@ -1,28 +1,134 @@
-.tech-stack  {
+.skills-section-parent {
+    background: #f8f9fa;
+}
+
+.skills-section-parent>.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    margin: 1vh 0;
+    padding: 5px;
+}
+
+.skill-card {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    background: white;
+    margin: 2vw;
+    padding: 1vw;
 }
 
-.skill-box {
-    width: 100%;
-    
+.skill-card svg {
+    font-size: 7vw;
 }
 
-.right {
-    padding-right: 15px;
+.skill-card i {
+    font-size: 4.7vw;
 }
 
-.left {
-    padding-left: 15px;
+.hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
 }
 
-.skill-box img {
-    height: 40px;
-    width: 40px;
+.js>svg:hover {
+    color: #e1cc1b;
 }
 
-.skill-parent-section {
-    display: flex;
-    margin-bottom: 10px;
+.js:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
 }
+
+.react>svg:hover {
+    color: #31b2fb;
+}
+
+.react:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.vue>svg:hover {
+    color: #42b983;
+}
+
+.vue:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.node>svg:hover {
+    color: #5c9553;
+}
+
+.node:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.go>i:hover {
+    color: #00a7d0;
+}
+
+.go:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mongo>i:hover {
+    color: #3f9b38;
+}
+
+.mongo:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mysql>i:hover {
+    color: #42759c
+}
+
+.mysql:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.redis>i:hover {
+    color: #c02e2a;
+}
+
+.redis:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.git>svg:hover {
+    color: #dfdfdf;
+}
+
+.git:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.docker>svg:hover {
+    color: #2496ed;
+}
+
+.docker:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.aws>i:hover {
+    color: #f0941c;
+}
+
+.aws:hover .hidden-text {
+    visibility: visible;
+    opacity: 1;
+}
+

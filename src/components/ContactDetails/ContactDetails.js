@@ -34,7 +34,7 @@ const ContactDetails = () => {
                     <div className="icon">
                         <FontAwesomeIcon icon={faMapMarkerAlt} />
                     </div>
-                    <div className="contact-src">#5, 22nd Main, 3rd Cross, 2nd Stage, BTM Layout, Bengaluru, KA, India - 560076</div>
+                    <div className="contact-src"> #5, 22nd Main, 3rd Cross, 2nd Stage, BTM Layout, Bengaluru, KA, India - 560076</div>
                 </div>
             </div>
         </>

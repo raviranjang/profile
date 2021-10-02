@@ -24,6 +24,10 @@ input[type="text"], input[type="password"], textarea, select {
     outline: none !important;
 }
 
+.contact-form {
+    margin: 1vh 0;
+}
+
 .contact-form .mb-3 {
     font-family: 'Open Sans', sans-serif;
     font-size: .6875em;

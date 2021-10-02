@@ -19,7 +19,11 @@
     max-width: 60%;
 }
 
+.contact-card .icon svg {
+    font-size: 15px;
+}
+
 .contact-card .icon {
-    background: #d3cccc;
+    background: #f8f9fa;
     padding: 15px;
 }
